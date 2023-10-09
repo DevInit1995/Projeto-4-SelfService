@@ -1,7 +1,7 @@
 var products = [
     {
         "photo": "img/big-mac.png",
-        "name": "New Sandwich",
+        "name": "Bic Mac",
         "price": 5.99,
         "active": false,
         "quantity": 1
@@ -61,14 +61,8 @@ var products = [
         "price": 1.49,
         "active": false,
         "quantity": 1
-    },
-    {
-        "photo": "img/water.png",
-        "name": "Water #2",
-        "price": 1.49,
-        "active": false,
-        "quantity": 1
     }
+   
 ];
  
 //dados da aplicação
