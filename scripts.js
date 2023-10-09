@@ -62,7 +62,6 @@ var products = [
         "active": false,
         "quantity": 1
     }
-   
 ];
  
 //dados da aplicação
