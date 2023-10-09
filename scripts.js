@@ -1,7 +1,7 @@
 var products = [
     {
         "photo": "img/big-mac.png",
-        "name": "Big Mac",
+        "name": "New Sandwich",
         "price": 5.99,
         "active": false,
         "quantity": 1
@@ -61,6 +61,13 @@ var products = [
         "price": 1.49,
         "active": false,
         "quantity": 1
+    },
+    {
+        "photo": "img/water.png",
+        "name": "Water #2",
+        "price": 1.49,
+        "active": false,
+        "quantity": 1
     }
 ];
  
@@ -70,7 +77,7 @@ const SelfServiceMachine = {
     data() {
         return {
             //acessando a variável products
-            message: "Hello World"
+            products: window.products 
         }
     }
 };
