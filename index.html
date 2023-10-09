@@ -37,8 +37,9 @@
                     </div>
                 </div>
             </section>
-
-            <section class="summary">
+            
+            <!--se nenhum produto for selecionado o tatal não será exibido-->
+            <section class="summary" v-if="total()>0">
                 <strong>Resumo do pedido</strong>
                 <table>
                     <thead>
@@ -57,7 +58,7 @@
                         
                         <tr>
                             <th>Total</th>
-                            <th>0.00</th>
+                            <th>{{ total() }}</th>
                         </tr>
                     </tbody>
                 </table>
