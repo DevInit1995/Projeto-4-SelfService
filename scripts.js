@@ -64,3 +64,14 @@ var products = [
     }
 ];
  
+//dados da aplicação
+const SelfServiceMachine = {
+    //função para retornar os dados da aplicação
+    data() {
+        return {
+            message: "Hello World"
+        }
+    }
+};
+
+Vue.createApp(SelfServiceMachine).mount('#app');
