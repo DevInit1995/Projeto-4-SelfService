@@ -69,6 +69,7 @@ const SelfServiceMachine = {
     //função para retornar os dados da aplicação
     data() {
         return {
+            //acessando a variável products
             message: "Hello World"
         }
     }
